@@ -1,5 +1,5 @@
 {% set name = "formulate" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/formulate-{{ version }}.tar.gz
-  sha256: 1f0e8f4094b6c7ac5901a7d557238ae2838dffc3b62fbbd430119e743d1d1f31
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/formulate-{{ version }}.tar.gz
+  sha256: c08152cbf155e4d4548a062c63d18317f6ea00451159dabb164ca28b82ca47d1
 
 build:
   noarch: python
